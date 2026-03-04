@@ -18,6 +18,7 @@ echo '<br><br>';
 
 // array
 echo 'arrays <br> <br>';
+
 $dados = [
   $nome = "Eduardo",
   $idade = "34",
