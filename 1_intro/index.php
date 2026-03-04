@@ -1,0 +1,4 @@
+<?= 
+  'teste';
+  echo 'teste2'
+?>
