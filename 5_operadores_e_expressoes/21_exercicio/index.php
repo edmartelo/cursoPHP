@@ -14,3 +14,5 @@ if(2 == 3 && 5 >= 3) {
 } else {
   echo "a comparação é falsa";
 }
+
+//os dois itens precisam ser verdadeiros no AND (&&)
