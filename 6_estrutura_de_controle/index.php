@@ -68,3 +68,30 @@ function calcularDesconto($valor, $categoria) {
 
 echo calcularDesconto($valor, $categoria);
 
+
+echo "<br><br><br>";
+
+
+$categoria = "eletrodddnico";
+function verificarCategoria($categoria) {
+    switch ($categoria) {
+        case "eletronico": 
+        case "eletrônico":
+            return "Essa categoria é de produtos eletrônicos";
+
+        case "vestuario":
+        case "vestuário":
+            return "Essa categoria é de produtos de vestuário"; 
+
+        case "alimento":
+        case "alimentos":
+            return "Essa categoria é de produtos alimentícios";
+
+        default:
+            return "Categoria desconhecida";
+    }
+}
+
+echo verificarCategoria($categoria);
+
+

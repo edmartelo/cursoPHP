@@ -4,7 +4,7 @@
 
   switch($x) {
 
-    case 0;
+    case 0:
     echo "X é igual a $x <br>";
     break;
     case 1:
