@@ -1,0 +1,24 @@
+<?php
+
+
+  $arr = [];
+
+  for ($i = 10; $i <= 20; $i++) {
+    array_push($arr, $i);
+
+    
+  }
+
+  print_r($arr);
+  echo "<br>";
+
+  // pode usar a variável $i novamente como se fosse uma nova variável
+  // count() - para contar os itens de um array
+  for($i = 0; $i < count($arr); $i++){
+    if ($arr[$i] % 2 != 0) {
+      echo "Número impar $arr[$i] <br>";
+    }
+  }
+    
+
+  

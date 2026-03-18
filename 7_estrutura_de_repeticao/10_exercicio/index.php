@@ -7,3 +7,11 @@ for ($i = 0; $i < count($arr); $i++) {
     echo  $arr[$i] . ' Teste <br>';
   }
 }
+
+$array = [];
+
+for ($j = 1; $j <= 20; $j++) {
+  array_push($array, $j);
+}
+
+print_r($array);
